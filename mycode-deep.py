@@ -140,7 +140,7 @@ layers = [{'n_nodes': 1024, 'activation': tf.nn.relu, 'dropout': None},
 model_params = {'learning_rate': 0.01,
                 'layers': layers}
 
-#main(model_params, mode='train')
+main(model_params, mode='train')
 
 from sklearn.metrics import classification_report as crep, accuracy_score as acc
 
